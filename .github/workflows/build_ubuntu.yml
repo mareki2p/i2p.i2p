@@ -4,4 +4,4 @@
     "runs-on": "ubuntu-24.04"
     "steps":
       - "uses": "actions/checkout@main"
-      - "run": "sudo apt install msgfmt && ant installer"
+      - "run": "sudo apt install gettext && ant installer"
